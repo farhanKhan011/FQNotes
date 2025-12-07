@@ -15,7 +15,6 @@ const __dirname = path.resolve()
 
 // middleware
 if(process.env.NODE_ENV !== "production"){
-// app.use(rateLimiter)
   app.use(
     cors({
       origin: "http://localhost:5173",
@@ -24,6 +23,7 @@ if(process.env.NODE_ENV !== "production"){
 }
 
 app.use(express.json()); // this middleware will parse JSON bodies: req.body
+app.use(rateLimiter)
 
 // our simple custom middleware 
 // app.use((req,res,next)=>{
