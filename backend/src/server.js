@@ -47,7 +47,3 @@ connectDB().then(()=>{
 })
 })
 
-
-
-
-// mongodb+srv://farhankhan:<Fk865621#>@cluster0.xjlciy9.mongodb.net/?appName=Cluster0
