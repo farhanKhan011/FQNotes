@@ -15,7 +15,7 @@ const __dirname = path.resolve()
 
 // middleware
 if(process.env.NODE_ENV !== "production"){
-app.use(rateLimiter)
+// app.use(rateLimiter)
   app.use(
     cors({
       origin: "http://localhost:5173",
