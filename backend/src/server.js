@@ -46,8 +46,3 @@ connectDB().then(()=>{
   console.log("sevrver is running on the PORT",PORT)
 })
 })
-
-
-
-
-// mongodb+srv://farhankhan:<Fk865621#>@cluster0.xjlciy9.mongodb.net/?appName=Cluster0
