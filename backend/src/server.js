@@ -46,7 +46,4 @@ connectDB().then(()=>{
   console.log("sevrver is running on the PORT",PORT)
 })
 })
-<<<<<<< HEAD
 
-=======
->>>>>>> 40f35c853a6cbb30bc336e80c148c254a6462421
